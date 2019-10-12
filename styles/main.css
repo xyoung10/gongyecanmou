@@ -759,22 +759,25 @@ a {
         margin-left: 240px;
       }
     
-      /*.sidebar .top-container .site-logo {
-    width: 60px;
-    height: 60px;
+      .post-detail {
+    max-width: 1064px; 
+    padding: 48px 2%;
 }
-body {
-    font-size: 14px;
-}*/
-.post-detail {
-    max-width: 1280px; 
+.post-item {
+    padding-right: 8%;
+    padding-left: 8%;
 }
+
+.content-container {
+    max-width: 1280px;
+    /*padding: 48px 2%;*/
+}
+
+/*
 .post-content p {
     font-size: 14px;
 }
-.content-container {
-    max-width: 1280px;
-    padding: 48px 32px;
-}
-
+.post-item .left .post-abstract {
+    font-size: 16px;
+}*/
     
