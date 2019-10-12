@@ -760,17 +760,15 @@ a {
       }
     
       .content-container {
-    max-width: 1064px;
+    max-width: 1280px;
     padding: 48px 2%;
 }
 .post-detail {
-    max-width: 1064px; 
+    max-width: 1280px; 
     padding: 48px 2%;
 }
 .post-item {
-    max-width: 1064px; 
-    padding-right: 8%;
-    padding-left: 8%;
+    max-width: 1200px; 
 }
 
 /*
