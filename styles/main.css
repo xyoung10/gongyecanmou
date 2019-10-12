@@ -759,13 +759,13 @@ a {
         margin-left: 240px;
       }
     
-      .sidebar .top-container .site-logo {
+      /*.sidebar .top-container .site-logo {
     width: 60px;
     height: 60px;
 }
 body {
     font-size: 14px;
-}
+}*/
 .post-detail {
     max-width: 1280px; 
 }
