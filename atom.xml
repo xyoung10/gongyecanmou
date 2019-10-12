@@ -2,13 +2,30 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://xyoung10.github.io</id>
     <title>Young</title>
-    <updated>2019-10-10T16:51:23.280Z</updated>
+    <updated>2019-10-12T14:18:59.514Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://xyoung10.github.io"/>
     <link rel="self" href="https://xyoung10.github.io/atom.xml"/>
     <logo>https://xyoung10.github.io/images/avatar.png</logo>
     <icon>https://xyoung10.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, Young</rights>
+    <entry>
+        <title type="html"><![CDATA[Puri | 膏方机]]></title>
+        <id>https://xyoung10.github.io/post/puri-or-gao-fang-ji</id>
+        <link href="https://xyoung10.github.io/post/puri-or-gao-fang-ji">
+        </link>
+        <updated>2019-10-12T13:59:35.000Z</updated>
+        <content type="html"><![CDATA[<p>TCM Paste (Cream Formulae 膏方) is a form of Chinese traditional medicine's existence, it is a kind of paste that contains several traditional Chinese herbs.  Under Traditional Chinese Medicine theory of &quot;treat pre-disease&quot;, TCM Paste is more likely to be eaten in winter in order to keep healthy rather than cure illness. Nowadays, with the increasing living standards and faster pace of everyday life, more and more people begin taking them. However, TCM Paste is hand-made. It's such a time consuming work that the whole process of making them costs at least a day. Therefore, our mashine is to make it easier without reducing the quality.<br>
+<img src="https://xyoung10.github.io/post-images/1570888839564.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/1570888845755.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/1570888853408.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/1570889000017.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/1570889027957.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/1570889039300.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/1570889067534.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/1570889074123.jpg" alt=""></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://xyoung10.github.io/post/hello-gridea</id>
