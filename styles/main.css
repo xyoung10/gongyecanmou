@@ -768,6 +768,7 @@ a {
     padding: 48px 2%;
 }
 .post-item {
+    max-width: 1064px; 
     padding-right: 8%;
     padding-left: 8%;
 }
