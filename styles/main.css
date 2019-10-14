@@ -44,7 +44,7 @@ body {
  * Improve consistency of default fonts in all browsers. (https://github.com/sindresorhus/modern-normalize/issues/3)
  */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
 }
 /* Grouping content
    ========================================================================== */
@@ -317,7 +317,7 @@ a {
   color: #495057;
 }
 .sidebar {
-  width: 320px;
+  width: 240px;
   position: fixed;
   left: 0;
   top: 0;
@@ -375,9 +375,9 @@ a {
   margin-left: 320px;
 }
 .content-container {
-  max-width: 1064px;
+  max-width: 1280px;
   margin: 0 auto;
-  padding: 48px 32px;
+  padding: 48px 8%;
 }
 .post-item {
   display: flex;
@@ -399,13 +399,13 @@ a {
   color: #212529;
 }
 .post-item .left .post-date {
-  font-size: 18px;
+  font-size: 16px;
   padding: 24px 0;
   color: #adb5bd;
 }
 .post-item .left .post-abstract {
   line-height: 24px;
-  font-size: 18px;
+  font-size: 16px;
   color: #868e96;
 }
 .post-item .right {
@@ -439,7 +439,7 @@ a {
   border: 1px solid #dee2e6;
 }
 .post-detail {
-  max-width: 720px;
+  max-width: 1280px;
   margin: 0 auto;
 }
 .post-detail .feature-container {
@@ -454,7 +454,7 @@ a {
   font-size: 40px;
 }
 .post-detail .post-date {
-  font-size: 18px;
+  font-size: 16px;
   padding: 24px 0;
   color: #adb5bd;
 }
@@ -751,32 +751,3 @@ a {
   font-size: 16px;
   margin: 4px 8px;
 }
-
-      .sidebar {
-        width: 240px;
-      }
-      .main-container {
-        margin-left: 240px;
-      }
-    
-      
-.content-container {
-    max-width: 1280px;
-    padding: 48px 4%;
-}
-.post-detail {
-    max-width: 1280px; 
-}
-.post-item {
-    max-width: 1280px; 
-    padding: 48px 4%;
-    /*margin-left: 8%;
-    margin-right: 8%;*/
-}
-.post-item .left .post-abstract {
-    font-size: 16px;
-}
-.post-detail .post-content p {
-    font-size: 16px;
-}
-    
