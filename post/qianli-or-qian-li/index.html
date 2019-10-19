@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" >
 
-<title>标签列表 | Young</title>
+<title>QIANLI | 牵里 | Young</title>
 <meta name="description" content="">
 
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -13,6 +13,12 @@
 <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">-->
 <link rel="stylesheet" href="https://xyoung10.github.io/styles/main.css">
 
+
+  
+    <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css" />
+  
+
+  
 
 
 <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -91,10 +97,48 @@
 
       <div class="main-container">
         <div class="content-container" data-aos="fade-up">
-          <h2 class="tag-list-title">标签列表</h2>
-          <div class="tags-container">
+          <div class="post-detail">
+            <h2 class="post-title">QIANLI | 牵里</h2>
+            <div class="post-date">2019-10-19</div>
             
+              <div class="feature-container" style="background-image: url('https://xyoung10.github.io/post-images/qianli-or-qian-li.jpg')">
+              </div>
+            
+            <div class="post-content">
+              <p><img src="https://xyoung10.github.io/post-images/qianli/QIANLI-02.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-03.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-04.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-05.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-06.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-07.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-09.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-10.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-11.jpg" alt=""><br>
+<img src="https://xyoung10.github.io/post-images/qianli/QIANLI-12.jpg" alt=""></p>
+
+            </div>
+            
+            
+              <div class="next-post">
+                <div class="next">下一篇</div>
+                <a href="https://xyoung10.github.io/post/puri-or-gao-fang-ji">
+                  <h3 class="post-title">
+                    Puri | 膏方机
+                  </h3>
+                </a>
+              </div>
+            
+
+            
+              
+                <div id="gitalk-container" data-aos="fade-in"></div>
+              
+
+              
+            
+
           </div>
+
         </div>
       </div>
     </div>
@@ -115,6 +159,29 @@ var app = new Vue({
 })
 
 </script>
+
+
+
+  
+    <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+    <script>
+
+      var gitalk = new Gitalk({
+        clientID: '',
+        clientSecret: '',
+        repo: '',
+        owner: '',
+        admin: [''],
+        id: (location.pathname).substring(0, 49),      // Ensure uniqueness and length less than 50
+        distractionFreeMode: false  // Facebook-like distraction free mode
+      })
+
+      gitalk.render('gitalk-container')
+
+    </script>
+  
+
+  
 
 
 
