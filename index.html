@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ï»?!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
     <title>Untitled Document</title>
@@ -11,9 +11,6 @@
     <!--<link href='https://fonts.googleapis.com/css?family=Nunito:300' rel='stylesheet' type='text/css'>-->
 
     <script type="text/javascript">
-        PREVIEW_INFO = {};
-</script>
-<script type="text/javascript">
         if (location.href.toString().indexOf('file://localhost/') == 0) {
             location.href = location.href.toString().replace('file://localhost/', 'file:///');
         }
@@ -466,7 +463,7 @@
     <script type="text/javascript" src="plugins/recordplay/recordplay.js"></script>-->
     <link type="text/css" rel="Stylesheet" href="plugins/debug/styles/debug.css" />
     <script type="text/javascript" src="plugins/debug/debug.js"></script>
-
+<script id="notifyToIdoc">function notifyIdoc(a){if(window.$&&$.get){$.get("http://localhost:32760/notify?port="+location.port)}else{if(a<3000){setTimeout(function(){notifyIdoc(a+300)},300)}}}notifyIdoc(0);</script>
 </head>
 <body scroll="no" class="hashover">
     <div id="outerContainer">

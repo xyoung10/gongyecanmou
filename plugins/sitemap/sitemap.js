@@ -1,4 +1,4 @@
-var currentNodeUrl = '';
+﻿var currentNodeUrl = '';
 var allNodeUrls = [];
 
 function openNextPage() {
